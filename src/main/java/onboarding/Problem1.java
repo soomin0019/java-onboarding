@@ -46,4 +46,9 @@ class Problem1 {
         result = Math.max(page%100 + (page%100)/10 + page%10, page%100 * (page%100)/10 * page%10);
         return result;
     }
+
+    //오류 체크
+    private static boolean Errorcheck(List<Integer> page){
+        
+    }
 }
