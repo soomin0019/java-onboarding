@@ -7,16 +7,15 @@ public class Problem2 {
     public static String solution(String cryptogram) {
         String answer = "answer";
 
-        while(true){
-            answer = DuplicateCheck(cryptogram);
+        while(true){                                //중복 없을 때까지 반복
+            answer = DuplicateCheck(cryptogram);    //단어 중복 한 번 제거후 저장
 
-            if(answer.equals(cryptogram)){
+            if(answer.equals(cryptogram)){          //제거 전과 같으면 변화가 없을 것이므로 반환
                 break;
             }
-            cryptogram = answer;
+            cryptogram = answer;                    //다르면 저장후 똑같이 반복
         }
-
-
+        
         return answer;
     }
 
