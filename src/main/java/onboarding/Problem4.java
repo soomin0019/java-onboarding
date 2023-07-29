@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Problem4 {
     public static String solution(String word) {
-        Map<Character, Character> m = Dectionary();     //청개구리 사전 정의
+        Map<Character, Character> m = Dectionary();     //청개구리 사전 불러오기
         String answer = "";
         answer = Translate(m, word);                    //있는 메소드 가져와서 대입
         return answer;
