@@ -5,7 +5,7 @@ import java.util.Deque;
 
 public class Problem2 {
     public static String solution(String cryptogram) {
-        String answer = "";
+        String answer = "answer";
 
         while(true){
             answer = DuplicateCheck(cryptogram);
