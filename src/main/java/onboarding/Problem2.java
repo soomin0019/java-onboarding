@@ -15,7 +15,7 @@ public class Problem2 {
             }
             cryptogram = answer;                    //다르면 저장후 똑같이 반복
         }
-        
+
         return answer;
     }
 

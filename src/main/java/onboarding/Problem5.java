@@ -8,4 +8,8 @@ public class Problem5 {
         List<Integer> answer = Collections.emptyList();
         return answer;
     }
+
+    private static List<Integer> Arr (int money){
+        int[] m = new int[9];
+    }
 }
