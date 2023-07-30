@@ -26,8 +26,6 @@ class Problem1 {
         return answer;
     }
 
-    //1.각 자리 숫자를 더해 큰 수 구하기
-
 
     //점수 비교 후 숫자 출력
     private static int Win(int pobi, int crong){
