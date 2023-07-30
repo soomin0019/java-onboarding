@@ -14,7 +14,7 @@ public class Problem3 {
         int cnt = 0;
 
         for(int i=1; i<=number; i++){
-            int c = 0;
+            int c = i;
             while(c!=0){
                 int r = c%10;
                 if(r == 3 || r ==6 || r == 9){
